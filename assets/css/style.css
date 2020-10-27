@@ -1,10 +1,10 @@
 /* utility classes */
 
+/* ************RICORDARSI DI CANCELLARE LE ALTEZZE************ */
 
 
-
-
-
+/***** HEADER *****/
+/* navbar */
 nav{
   background-color: #2C3F50;
   color: white;
@@ -20,15 +20,69 @@ nav{
 .nav_left{
   text-align: left;
 }
+/* /navbar */
 
-
-
+/* jumbotron */
 .jumbotron{
   background-color: #19BC9D;
   color: white;
   height: 500px;
   text-align: center;
 }
+/* /jumbotron */
+/***** /HEADER *****/
+
+
+
+/***** MAIN *****/
+/* portfolio */
+.portfolio{
+  height: 600px;
+  text-align: center;
+}
+.card{
+  border: 1px solid black;
+  padding: 100px;
+}
+/* /portfolio */
+
+/* about */
+.about{
+  height: 400px;
+  color: white;
+  background-color: #19BC9D;
+  text-align: center;
+}
+/* /about */
+
+/* form */
+.contact_me{
+  height: 400px;
+  text-align: center;
+}
+/* /form */
+/***** /MAIN *****/
+
+
+/***** FOOTER *****/
+footer{
+  text-align: center;
+  color: white;
+}
+.footer_top{
+  height: 200px;
+  background-color: #3A546D;
+}
+.footer_bottom{
+  height: 100px;
+  background-color: #2C3F51;
+}
+/***** /FOOTER *****/
+
+
+
+
+
 
 
 @media screen and (max-width: 768px) {
