@@ -4,12 +4,13 @@
   }
 
   /* utility classes */
-.pl_50{
-  padding-left: 50px;
+.pl_150{
+  padding-left: 150px;
 }
-.pr_50{
-  padding-right: 50px;
+.pr_150{
+  padding-right: 150px;
 }
+
 /* utility classes */
 
 
@@ -113,8 +114,6 @@
 .card:hover .overlay_card{
   display: block;
 }
-
-}
 /* /portfolio */
 
 /* about */
@@ -123,6 +122,32 @@
   background-color: #19BC9D;
   text-align: center;
 }
+.about h2{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 42px;
+}
+.about p{
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  line-height: 30px;
+  padding-top: 25px;
+}
+.about .btn{
+  border: 1px solid white;
+  background-color: #19BC9D;
+  color: white;
+  font-weight: 400;
+  font-family: Lato;
+}
+.about button{
+  margin-top: 25px;
+  margin-bottom: 100px;
+
+}
+
 /* /about */
 
 /* form */
@@ -166,6 +191,7 @@ footer{
   .fa-bars{
     margin-top: 30px;
   }
+
 
 
 
