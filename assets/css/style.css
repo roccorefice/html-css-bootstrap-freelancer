@@ -1,4 +1,9 @@
-/* utility classes */
+*{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+  /* utility classes */
 .pl_50{
   padding-left: 50px;
 }
@@ -10,20 +15,30 @@
 
 /***** HEADER *****/
 /* navbar */
-nav{
+.nav{
   background-color: #2C3F50;
   color: white;
-  height: 100px;
+  height: 105px;
 }
-.nav_right{
-  text-align: right;
-}
-.nav_right a{
-  text-decoration: none;
+.navbar-right a{
   color: white;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
 }
-.nav_left{
-  text-align: left;
+.navbar-right li a{
+  line-height: 75px;
+}
+.nav li a:hover, .nav a:hover{
+  text-decoration: none;
+  color: #19BC9D;
+  background-color: #2C3F50;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  line-height: 75px;
+  font-weight: 700;
+  color: white;
 }
 /* /navbar */
 
@@ -31,8 +46,22 @@ nav{
 .jumbotron{
   background-color: #19BC9D;
   color: white;
-  height: 500px;
   text-align: center;
+}
+.jumbotron img{
+  height: 250px;
+  margin-top: 150px;
+}
+.jumbotron h1{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 64px;
+  margin-top: 30px;
+}
+.jumbotron p{
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 26px;
 }
 /* /jumbotron */
 /***** /HEADER *****/
@@ -96,6 +125,10 @@ footer{
 
 /*** style for xs (small) screen ***/
 @media screen and (max-width: 768px){
+  .fa-bars{
+    margin-top: 30px;
+  }
+
 
 
 }
