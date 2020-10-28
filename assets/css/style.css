@@ -73,9 +73,47 @@
 .portfolio{
   text-align: center;
 }
-.card{
-  border: 1px solid black;
-  padding: 100px;
+.portfolio h2{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 42px;
+  color: #2C3F51;
+}
+.card img{
+  height: 250px;
+  border-radius: 10px;
+}
+.link {
+  position: relative;
+  display: block;
+  margin: 20px 0;
+}
+.overlay_card{
+  background-color: rgba(26, 188, 156, 0.9);
+  color: white;
+  height: 100%;
+  width: 97%;
+  margin-left: 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: block;
+  display: none;
+  padding-left: 10px;
+}
+.plus{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+}
+.card:hover .overlay_card{
+  display: block;
+}
+
 }
 /* /portfolio */
 
