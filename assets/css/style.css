@@ -73,8 +73,11 @@
 /* portfolio */
 .portfolio{
   text-align: center;
+  margin-bottom: 70px;
+
 }
 .portfolio h2{
+  margin-bottom: 25px;
   font-family: Montserrat;
   font-weight: 700;
   font-size: 42px;
@@ -126,6 +129,8 @@
   font-family: Montserrat;
   font-weight: 700;
   font-size: 42px;
+  margin-bottom: 25px;
+  margin-top: 50px;
 }
 .about p{
   font-family: Lato;
@@ -145,14 +150,42 @@
 .about button{
   margin-top: 25px;
   margin-bottom: 100px;
-
 }
-
 /* /about */
+
 
 /* form */
 .contact_me{
   text-align: center;
+}
+.contact_me h2{
+  margin-bottom: 25px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 42px;
+  color: #2C3F51;
+  margin: 50px 0 50px 0;
+}
+.contact_me label{
+  color: #6D757D;
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: left;
+  display: block;
+}
+.message{
+  height: 150px;
+}
+.form .btn{
+  color: #fff;
+  background-color: #159a80;
+  border-color: #148f77;
+  text-align: left;
+  display: block;
+  margin-bottom: 100px;
+  margin-top: 25px;
+
 }
 /* /form */
 /***** /MAIN *****/
@@ -178,7 +211,12 @@ footer{
 
 /*** style for md (medium) screen ***/
 @media screen and (min-width: 769px) and (max-width: 1200px){
-  /* verificare se le dimensioni sono giuste */
+  .about .pl_150{
+    padding: 0;
+  }
+  .about .pr_150{
+    padding: 0;
+  }
 
 
 }
@@ -190,6 +228,12 @@ footer{
 @media screen and (max-width: 768px){
   .fa-bars{
     margin-top: 30px;
+  }
+  .about .pl_150{
+    padding: 0;
+  }
+  .about .pr_150{
+    padding: 0;
   }
 
 
