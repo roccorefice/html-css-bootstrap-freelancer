@@ -173,13 +173,24 @@
   color: #2C3F51;
   margin: 50px 0 50px 0;
 }
-.contact_me label{
+.contact_me input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+.contact_me input::placeholder{
   color: #6D757D;
   font-family: Lato;
   font-weight: 400;
   font-size: 24px;
   text-align: left;
   display: block;
+  padding-bottom: 10px;
+
 }
 .message{
   height: 150px;
@@ -221,15 +232,20 @@ footer{
   height: 3.25rem;
   font-size: 1.25rem;
   margin: 0 5px;
+  cursor: pointer;
+}
+.btn_social i{
+  color: white;
 }
 .btn_social:hover{
   background-color: white;
+}
+.btn_social:hover i{
   color: black;
 }
 .social{
   margin-top: 25px;
   margin-bottom: 25px;
-
 }
 .link_special{
   font-family: Lato;
@@ -264,7 +280,7 @@ footer{
   .about .pr_150{
     padding: 0;
   }
-  
+
 }
 
 
